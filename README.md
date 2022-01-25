@@ -1,4 +1,4 @@
-# GIT pull , pull request , marge
+# GIT pull , pull request , merge
 
  * First open new repo and add git remote
  * Open new branch $ git branch <branch_name>
