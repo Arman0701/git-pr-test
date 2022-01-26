@@ -1,12 +1,75 @@
-.sizes{
-    width: 500px;
-    height: 800px;
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    user-select: none;
 }
-.color{
-    background-color: green;
+body {
+    width: 200%;
 }
-
-.styles {
-    background: #000;
+body::-webkit-scrollbar {
+   display: none;
+}
+.menu {
+    width: 100%;
+    height: 100vh;
+}
+.menuHeader {
+    color: rebeccapurple;
     font-size: 25px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.main {
+    border: 2px dashed red;
+    margin: 5px;
+    transform: rotate(-5deg);
+    width: 100%;
+}
+.card {
+    width: 45%;
+    margin: 40px auto;
+    padding: 15px;
+    background:rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.cardImage {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+    border: 2px solid red;
+}
+.cardTitle {
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.cardText {
+    padding: 5px;
+    display: inline;
+    background: -webkit-radial-gradient(red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cardButton {
+    cursor: pointer ;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 10px auto;
+    text-align: center;
+    background: rgba(0,0,0,.3);
+    color: white;
+}
+.footer {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+.footerText {
+    font-size: 18px;
 }
